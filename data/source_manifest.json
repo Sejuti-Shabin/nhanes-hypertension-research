@@ -1,0 +1,67 @@
+{
+  "DEMO_J": {
+    "xpt": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.xpt",
+      "sha256": "c0b46e0345ea19404928656277c8b0d10b0cca348a9b2fe4fc3c67e8b7ee73ec",
+      "bytes": 3412720
+    },
+    "htm": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm",
+      "sha256": "07f8f1e7f884fab180ccf53c705652de9d663833fdad85b0d759919c8464cde0",
+      "bytes": 167262
+    },
+    "rows": 9254
+  },
+  "BPX_J": {
+    "xpt": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.xpt",
+      "sha256": "f98f1d9a4c18173e715c749b4294f6f1525140d5ad5751316bb17cc038fb3423",
+      "bytes": 1466000
+    },
+    "htm": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm",
+      "sha256": "a7583578150897efec8748a3bc05ecbc6e54d5a0b5a32cdfda87c883aba56a37",
+      "bytes": 52515
+    },
+    "rows": 8704
+  },
+  "BPQ_J": {
+    "xpt": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPQ_J.xpt",
+      "sha256": "63cfe1c331a1e7d3534328ac86312a21ffee3e01aa189bc1f74d06855239e5aa",
+      "bytes": 544560
+    },
+    "htm": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPQ_J.htm",
+      "sha256": "1e3a1632530146d45f7fccba1a06da30db0e49e17b58842dca874b713a01021b",
+      "bytes": 34559
+    },
+    "rows": 6161
+  },
+  "HIQ_J": {
+    "xpt": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/HIQ_J.xpt",
+      "sha256": "96dfdd98507ea6dc67cb2c2b6999da3c035f3f8a9a87cf34756fe30762387860",
+      "bytes": 1187520
+    },
+    "htm": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/HIQ_J.htm",
+      "sha256": "c674972f8651db9e0de09d122bf66075e820f5c5582c10d0728590a78619ed30",
+      "bytes": 39879
+    },
+    "rows": 9254
+  },
+  "HUQ_J": {
+    "xpt": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/HUQ_J.xpt",
+      "sha256": "0d8814ca6a72c003eb89885a3a24dcff3b475dfed454089cf4890f9ab9da06d2",
+      "bytes": 742480
+    },
+    "htm": {
+      "url": "https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/HUQ_J.htm",
+      "sha256": "bebd6cd77f92f5de692196a345b396da7deb5993eb1a00a6f15ba1a9c64427d6",
+      "bytes": 41769
+    },
+    "rows": 9254
+  }
+}

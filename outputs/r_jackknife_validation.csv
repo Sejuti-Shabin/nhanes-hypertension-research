@@ -1,0 +1,5 @@
+"estimand","estimate","jackknife_se","taylor_se","jackknife_taylor_se_ratio","n","replicates","review_flag"
+"uninsured_beta",-0.509015633294541,0.316283653413142,0.311314976380896,1.01596028912585,1534,30,"within diagnostic range (not equivalence test)"
+"Insured",0.546558379043657,0.0267470997528562,0.0267269958612323,1.00075219421323,1534,30,"within diagnostic range (not equivalence test)"
+"Uninsured",0.43084538921199,0.0636350987907078,0.0625240118963714,1.0177705630307,1534,30,"within diagnostic range (not equivalence test)"
+"Difference",-0.115712989831666,0.0704495611717149,0.0694725756087295,1.01406289538606,1534,30,"within diagnostic range (not equivalence test)"

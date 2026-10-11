@@ -1,0 +1,4 @@
+"estimand","estimate","se","ci_low","ci_high","design_df","inference_df","ci_method","n"
+"Insured",0.546558379043657,0.0267269958612323,0.460972013721101,0.629478294971179,15,3,"logit-transformed Taylor t",1534
+"Uninsured",0.43084538921199,0.0625240118963714,0.251647947278618,0.630191120282381,15,3,"logit-transformed Taylor t",1534
+"Uninsured minus insured",-0.115712989831666,0.0694725756087295,-0.336805731396211,0.105379751732878,15,3,"Taylor t difference",1534

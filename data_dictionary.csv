@@ -1,0 +1,46 @@
+variable,source,definition_and_coding,codebook
+SEQN,DEMO_J,Public-use respondent identifier; unique within component,https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#SEQN
+RIDAGEYR,DEMO_J,"Age in years; primary 20–64, avoids 80+ top code",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#RIDAGEYR
+RIAGENDR,DEMO_J,"NHANES binary sex coding: 1 male, 2 female; not gender identity",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#RIAGENDR
+RIDRETH3,DEMO_J,"Race/ethnicity: 1 Mexican American, 2 other Hispanic, 3 White, 4 Black, 6 Asian, 7 other/multiracial",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#RIDRETH3
+DMDEDUC2,DEMO_J,"Adult education: 1/2 below high school, 3 high school/GED, 4 some college/AA, 5 college; 7/9 unknown",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#DMDEDUC2
+INDFMPIR,DEMO_J,"Family income-to-poverty ratio, 0–5; top-coded 5, missing preserved",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#INDFMPIR
+RIDSTATR,DEMO_J,"1 interview only, 2 interviewed/examined",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#RIDSTATR
+WTMEC2YR,DEMO_J,"Two-year MEC examination weight; require positive, do not divide by cycles",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#WTMEC2YR
+SDMVSTRA,DEMO_J,Masked variance stratum,https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#SDMVSTRA
+SDMVPSU,DEMO_J,Masked PSU within stratum,https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#SDMVPSU
+RIDEXPRG,DEMO_J,Pregnancy status: 1 pregnant; 2 not pregnant; 3 cannot determine; eligibility-limited missingness,https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/DEMO_J.htm#RIDEXPRG
+BPXSY1,BPX_J,"Systolic reading 1, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXSY1
+BPXSY2,BPX_J,"Systolic reading 2, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXSY2
+BPXSY3,BPX_J,"Systolic reading 3, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXSY3
+BPXSY4,BPX_J,"Systolic reading 4, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXSY4
+BPXDI1,BPX_J,"Diastolic reading 1, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXDI1
+BPXDI2,BPX_J,"Diastolic reading 2, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXDI2
+BPXDI3,BPX_J,"Diastolic reading 3, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXDI3
+BPXDI4,BPX_J,"Diastolic reading 4, mmHg; fourth attempt sensitivity only; DBP 0 retained",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPX_J.htm#BPXDI4
+BPQ020,BPQ_J,"Awareness proxy: 1 ever told hypertension by professional, 2 no; 7/9/missing unknown",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPQ_J.htm#BPQ020
+BPQ040A,BPQ_J,"Ever told to take prescribed BP medicine: 1 yes, 2 no; NOT current use",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPQ_J.htm#BPQ040A
+BPQ050A,BPQ_J,"Current prescribed BP medicine: 1 yes, 2 no; structural no inferred only from documented skips",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/BPQ_J.htm#BPQ050A
+HIQ011,HIQ_J,"Current coverage: 1 insured, 2 uninsured; 7/9 unknown",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/HIQ_J.htm#HIQ011
+HIQ210,HIQ_J,"Any period without insurance in past 12 months among currently insured: 1 yes, 2 no, 7/9 unknown; uninsured structural skip is NOT no lapse",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/HIQ_J.htm#HIQ210
+HUQ030,HUQ_J,"Usual care place: 1 one, 2 none, 3 multiple; 7/9 unknown",https://wwwn.cdc.gov/nchs/data/nhanes/public/2017/datafiles/HUQ_J.htm#HUQ030
+sbp,derived,Mean of available first three SBP values; missing if none,
+dbp,derived,Mean of available first three DBP values; zero valid,
+medication,derived,BPQ050A yes/no plus structural skip no; residual unknown missing,
+awareness,derived,"BPQ020: 1 -> 1, 2 -> 0, other -> missing",
+uninsured,derived,"HIQ011: 2 -> 1, 1 -> 0, other -> missing",
+no_usual_care,derived,"HUQ030: 2 -> 1, 1/3 -> 0, other -> missing",
+hypertension_130,derived,Measured SBP ≥130 or DBP ≥80 or medication=1; normal measurement+medication unknown -> missing,
+hypertension_140,derived,Same rule at 140/90,
+elevated_130,derived,Measured-only 130/80; known elevated component establishes positive; both means required for negative,
+elevated_140,derived,Measured-only 140/90; known elevated component establishes positive; both means required for negative,
+age10,derived,(RIDAGEYR-40)/10,
+age10_sq,derived,"Squared centered age term, sensitivity",
+sex,derived,"Female reference, Male indicator",
+race,derived,"Six categories, White reference",
+education,derived,"Four categories, College graduate reference",
+pir,derived,"INDFMPIR restricted to [0,5]; continuous primary adjustment",
+pir_group,derived,"≤1, >1–2, >2; >2 reference in sensitivity",
+n_sbp,derived,Count of available readings in selected rule,
+n_dbp,derived,Count of available readings in selected rule,
+medication_structural_no,derived,Flag for BPQ050A missing coded no by skip logic,

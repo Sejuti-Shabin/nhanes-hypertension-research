@@ -1,0 +1,8 @@
+{
+  "primary": "Age20\u201364 examined, hypertension ascertainable by elevated available mean or current medication; no complete-BP requirement",
+  "all_target_exam_n": 3873,
+  "case_classifiable_n": 3709,
+  "unclassifiable_n": 164,
+  "known_medication_missing_bp_n": 35,
+  "revision": "Post-review, after inspecting original results"
+}

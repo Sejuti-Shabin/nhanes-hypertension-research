@@ -1,0 +1,22 @@
+model,domain_column,formula,kind
+M1,domain_M1,awareness ~ uninsured,primary
+M2,domain_M2,awareness ~ uninsured + age10 + sex,primary
+M3,domain_M3,awareness ~ uninsured + age10 + sex + race + education + pir,primary
+M1_common,domain_M1_common,awareness ~ uninsured,sample sensitivity
+M2_common,domain_M2_common,awareness ~ uninsured + age10 + sex,sample sensitivity
+threshold140,domain_threshold140,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+measured130,domain_measured130,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+measured140,domain_measured140,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+age20_59,domain_age20_59,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+age30_64,domain_age30_64,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+two_readings,domain_two_readings,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+bp_complete,domain_bp_complete,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+exclude_pregnant,domain_exclude_pregnant,awareness ~ uninsured + age10 + sex + race + education + pir,case/age sensitivity
+readings23,domain_readings23,awareness ~ uninsured + age10 + sex + race + education + pir,reading sensitivity
+readings1234,domain_readings1234,awareness ~ uninsured + age10 + sex + race + education + pir,reading sensitivity
+omit_pir,domain_omit_pir,awareness ~ uninsured + age10 + sex + race + education,confounder sensitivity
+quadratic_age,domain_quadratic_age,awareness ~ uninsured + age10 + sex + race + education + pir + age10_sq,functional form sensitivity
+categorical_pir,domain_categorical_pir,awareness ~ uninsured + age10 + sex + race + education + pir_group,functional form sensitivity
+insured_no_lapse,domain_insured_no_lapse,awareness ~ uninsured + age10 + sex + race + education + pir,post-review coverage restriction
+usual_care,domain_usual_care,awareness ~ no_usual_care + age10 + sex + race + education + pir,exploratory secondary
+usual_care_insurance,domain_usual_care_insurance,awareness ~ no_usual_care + age10 + sex + race + education + pir + uninsured,exploratory secondary

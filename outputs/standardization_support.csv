@@ -1,0 +1,29 @@
+uninsured,variable,n,min,max,level,aware_n,unaware_n
+0.0,RIDAGEYR,1292,20.0,64.0,,,
+0.0,pir,1292,0.0,5.0,,,
+0.0,sex,614,,,Female,360.0,254.0
+0.0,sex,678,,,Male,378.0,300.0
+0.0,race,394,,,White,226.0,168.0
+0.0,race,362,,,Black,232.0,130.0
+0.0,race,149,,,Mexican American,66.0,83.0
+0.0,race,98,,,Other Hispanic,63.0,35.0
+0.0,race,216,,,Asian,108.0,108.0
+0.0,race,73,,,Other/multiracial,43.0,30.0
+0.0,education,327,,,College graduate,171.0,156.0
+0.0,education,460,,,Some college/AA,279.0,181.0
+0.0,education,311,,,High school/GED,172.0,139.0
+0.0,education,194,,,Below high school,116.0,78.0
+1.0,RIDAGEYR,242,21.0,64.0,,,
+1.0,pir,242,0.0,5.0,,,
+1.0,sex,95,,,Female,53.0,42.0
+1.0,sex,147,,,Male,56.0,91.0
+1.0,race,63,,,White,32.0,31.0
+1.0,race,76,,,Black,41.0,35.0
+1.0,race,47,,,Mexican American,15.0,32.0
+1.0,race,24,,,Other Hispanic,9.0,15.0
+1.0,race,20,,,Asian,10.0,10.0
+1.0,race,12,,,Other/multiracial,2.0,10.0
+1.0,education,20,,,College graduate,13.0,7.0
+1.0,education,84,,,Some college/AA,37.0,47.0
+1.0,education,68,,,High school/GED,29.0,39.0
+1.0,education,70,,,Below high school,30.0,40.0

@@ -1,0 +1,51 @@
+# Python, local environments, OS files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+
+# CDC raw data: download official source files on first run
+data/raw/*
+!data/raw/.gitkeep
+
+# Pipeline generates many participant-level and ephemeral files.
+# Commit only the following non-person-level aggregate snapshots.
+outputs/*
+!outputs/ascertainment_bounds.csv
+!outputs/ascertainment_components.csv
+!outputs/awareness_missing_bounds.csv
+!outputs/descriptive.csv
+!outputs/inference_calibrations.csv
+!outputs/marginal_probabilities.csv
+!outputs/missingness.csv
+!outputs/missingness_profiles.csv
+!outputs/model_cells.csv
+!outputs/model_specifications.csv
+!outputs/pir_response_replicates.csv
+!outputs/pir_response_summary.csv
+!outputs/pir_response_weighting.csv
+!outputs/psu_influence.csv
+!outputs/r_jackknife_replicates.csv
+!outputs/r_jackknife_validation.csv
+!outputs/r_svyby_awareness.csv
+!outputs/regression.csv
+!outputs/sample_flow.csv
+!outputs/sensitivity.csv
+!outputs/standardization_support.csv
+!outputs/table1.csv
+!outputs/validation_comparison.csv
+!outputs/target_definition.json
+!outputs/provenance.json
+!outputs/manuscript_metadata.json
+
+# Large previous archives, executable libraries and local build files
+audit/
+.build-libs/
+build/
+dist/
+*.zip
+*.log

@@ -1,0 +1,256 @@
+model,variable,level,n,aware_n,unaware_n
+M1,uninsured,0.0,1467,846,621
+M1,uninsured,1.0,292,131,161
+M2,uninsured,0.0,1467,846,621
+M2,uninsured,1.0,292,131,161
+M2,sex,Female,816,478,338
+M2,sex,Male,943,499,444
+M3,uninsured,0.0,1292,738,554
+M3,uninsured,1.0,242,109,133
+M3,sex,Female,709,413,296
+M3,sex,Male,825,434,391
+M3,race,Asian,236,118,118
+M3,race,Black,438,273,165
+M3,race,Mexican American,196,81,115
+M3,race,Other Hispanic,122,72,50
+M3,race,Other/multiracial,85,45,40
+M3,race,White,457,258,199
+M3,education,Below high school,264,146,118
+M3,education,College graduate,347,184,163
+M3,education,High school/GED,379,201,178
+M3,education,Some college/AA,544,316,228
+M1_common,uninsured,0.0,1292,738,554
+M1_common,uninsured,1.0,242,109,133
+M2_common,uninsured,0.0,1292,738,554
+M2_common,uninsured,1.0,242,109,133
+M2_common,sex,Female,709,413,296
+M2_common,sex,Male,825,434,391
+threshold140,uninsured,0.0,857,663,194
+threshold140,uninsured,1.0,141,98,43
+threshold140,sex,Female,480,382,98
+threshold140,sex,Male,518,379,139
+threshold140,race,Asian,144,106,38
+threshold140,race,Black,320,253,67
+threshold140,race,Mexican American,110,72,38
+threshold140,race,Other Hispanic,86,68,18
+threshold140,race,Other/multiracial,52,40,12
+threshold140,race,White,286,222,64
+threshold140,education,Below high school,181,134,47
+threshold140,education,College graduate,212,163,49
+threshold140,education,High school/GED,248,183,65
+threshold140,education,Some college/AA,357,281,76
+measured130,uninsured,0.0,1059,505,554
+measured130,uninsured,1.0,220,87,133
+measured130,sex,Female,567,271,296
+measured130,sex,Male,712,321,391
+measured130,race,Asian,199,81,118
+measured130,race,Black,364,199,165
+measured130,race,Mexican American,167,52,115
+measured130,race,Other Hispanic,102,52,50
+measured130,race,Other/multiracial,70,30,40
+measured130,race,White,377,178,199
+measured130,education,Below high school,224,106,118
+measured130,education,College graduate,294,131,163
+measured130,education,High school/GED,312,134,178
+measured130,education,Some college/AA,449,221,228
+measured140,uninsured,0.0,474,280,194
+measured140,uninsured,1.0,99,56,43
+measured140,sex,Female,263,165,98
+measured140,sex,Male,310,171,139
+measured140,race,Asian,82,44,38
+measured140,race,Black,192,125,67
+measured140,race,Mexican American,67,29,38
+measured140,race,Other Hispanic,53,35,18
+measured140,race,Other/multiracial,30,18,12
+measured140,race,White,149,85,64
+measured140,education,Below high school,111,64,47
+measured140,education,College graduate,122,73,49
+measured140,education,High school/GED,137,72,65
+measured140,education,Some college/AA,203,127,76
+age20_59,uninsured,0.0,960,505,455
+age20_59,uninsured,1.0,191,76,115
+age20_59,sex,Female,526,278,248
+age20_59,sex,Male,625,303,322
+age20_59,race,Asian,181,83,98
+age20_59,race,Black,313,180,133
+age20_59,race,Mexican American,145,52,93
+age20_59,race,Other Hispanic,85,49,36
+age20_59,race,Other/multiracial,73,34,39
+age20_59,race,White,354,183,171
+age20_59,education,Below high school,177,90,87
+age20_59,education,College graduate,266,128,138
+age20_59,education,High school/GED,276,127,149
+age20_59,education,Some college/AA,432,236,196
+age30_64,uninsured,0.0,1219,722,497
+age30_64,uninsured,1.0,218,104,114
+age30_64,sex,Female,683,408,275
+age30_64,sex,Male,754,418,336
+age30_64,race,Asian,223,116,107
+age30_64,race,Black,413,267,146
+age30_64,race,Mexican American,184,80,104
+age30_64,race,Other Hispanic,115,72,43
+age30_64,race,Other/multiracial,74,43,31
+age30_64,race,White,428,248,180
+age30_64,education,Below high school,255,146,109
+age30_64,education,College graduate,331,180,151
+age30_64,education,High school/GED,350,194,156
+age30_64,education,Some college/AA,501,306,195
+two_readings,uninsured,0.0,1246,704,542
+two_readings,uninsured,1.0,225,98,127
+two_readings,sex,Female,676,387,289
+two_readings,sex,Male,795,415,380
+two_readings,race,Asian,225,112,113
+two_readings,race,Black,416,256,160
+two_readings,race,Mexican American,183,72,111
+two_readings,race,Other Hispanic,119,69,50
+two_readings,race,Other/multiracial,81,44,37
+two_readings,race,White,447,249,198
+two_readings,education,Below high school,248,135,113
+two_readings,education,College graduate,332,172,160
+two_readings,education,High school/GED,361,190,171
+two_readings,education,Some college/AA,530,305,225
+bp_complete,uninsured,0.0,1268,714,554
+bp_complete,uninsured,1.0,235,102,133
+bp_complete,sex,Female,692,396,296
+bp_complete,sex,Male,811,420,391
+bp_complete,race,Asian,232,114,118
+bp_complete,race,Black,429,264,165
+bp_complete,race,Mexican American,190,75,115
+bp_complete,race,Other Hispanic,119,69,50
+bp_complete,race,Other/multiracial,84,44,40
+bp_complete,race,White,449,250,199
+bp_complete,education,Below high school,254,136,118
+bp_complete,education,College graduate,341,178,163
+bp_complete,education,High school/GED,371,193,178
+bp_complete,education,Some college/AA,537,309,228
+exclude_pregnant,uninsured,0.0,1291,738,553
+exclude_pregnant,uninsured,1.0,242,109,133
+exclude_pregnant,sex,Female,708,413,295
+exclude_pregnant,sex,Male,825,434,391
+exclude_pregnant,race,Asian,236,118,118
+exclude_pregnant,race,Black,438,273,165
+exclude_pregnant,race,Mexican American,196,81,115
+exclude_pregnant,race,Other Hispanic,121,72,49
+exclude_pregnant,race,Other/multiracial,85,45,40
+exclude_pregnant,race,White,457,258,199
+exclude_pregnant,education,Below high school,264,146,118
+exclude_pregnant,education,College graduate,347,184,163
+exclude_pregnant,education,High school/GED,379,201,178
+exclude_pregnant,education,Some college/AA,543,316,227
+readings23,uninsured,0.0,1300,737,563
+readings23,uninsured,1.0,233,110,123
+readings23,sex,Female,701,413,288
+readings23,sex,Male,832,434,398
+readings23,race,Asian,235,119,116
+readings23,race,Black,436,272,164
+readings23,race,Mexican American,194,80,114
+readings23,race,Other Hispanic,122,72,50
+readings23,race,Other/multiracial,84,45,39
+readings23,race,White,462,259,203
+readings23,education,Below high school,266,146,120
+readings23,education,College graduate,349,184,165
+readings23,education,High school/GED,376,202,174
+readings23,education,Some college/AA,542,315,227
+readings1234,uninsured,0.0,1294,738,556
+readings1234,uninsured,1.0,237,108,129
+readings1234,sex,Female,709,413,296
+readings1234,sex,Male,822,433,389
+readings1234,race,Asian,236,118,118
+readings1234,race,Black,437,273,164
+readings1234,race,Mexican American,196,81,115
+readings1234,race,Other Hispanic,122,72,50
+readings1234,race,Other/multiracial,85,45,40
+readings1234,race,White,455,257,198
+readings1234,education,Below high school,264,146,118
+readings1234,education,College graduate,347,183,164
+readings1234,education,High school/GED,377,201,176
+readings1234,education,Some college/AA,543,316,227
+omit_pir,uninsured,0.0,1466,845,621
+omit_pir,uninsured,1.0,292,131,161
+omit_pir,sex,Female,816,478,338
+omit_pir,sex,Male,942,498,444
+omit_pir,race,Asian,265,135,130
+omit_pir,race,Black,525,330,195
+omit_pir,race,Mexican American,234,100,134
+omit_pir,race,Other Hispanic,145,82,63
+omit_pir,race,Other/multiracial,97,52,45
+omit_pir,race,White,492,277,215
+omit_pir,education,Below high school,322,182,140
+omit_pir,education,College graduate,386,208,178
+omit_pir,education,High school/GED,443,234,209
+omit_pir,education,Some college/AA,607,352,255
+quadratic_age,uninsured,0.0,1292,738,554
+quadratic_age,uninsured,1.0,242,109,133
+quadratic_age,sex,Female,709,413,296
+quadratic_age,sex,Male,825,434,391
+quadratic_age,race,Asian,236,118,118
+quadratic_age,race,Black,438,273,165
+quadratic_age,race,Mexican American,196,81,115
+quadratic_age,race,Other Hispanic,122,72,50
+quadratic_age,race,Other/multiracial,85,45,40
+quadratic_age,race,White,457,258,199
+quadratic_age,education,Below high school,264,146,118
+quadratic_age,education,College graduate,347,184,163
+quadratic_age,education,High school/GED,379,201,178
+quadratic_age,education,Some college/AA,544,316,228
+categorical_pir,uninsured,0.0,1292,738,554
+categorical_pir,uninsured,1.0,242,109,133
+categorical_pir,sex,Female,709,413,296
+categorical_pir,sex,Male,825,434,391
+categorical_pir,race,Asian,236,118,118
+categorical_pir,race,Black,438,273,165
+categorical_pir,race,Mexican American,196,81,115
+categorical_pir,race,Other Hispanic,122,72,50
+categorical_pir,race,Other/multiracial,85,45,40
+categorical_pir,race,White,457,258,199
+categorical_pir,education,Below high school,264,146,118
+categorical_pir,education,College graduate,347,184,163
+categorical_pir,education,High school/GED,379,201,178
+categorical_pir,education,Some college/AA,544,316,228
+categorical_pir,pir_group,PIR >1–2,410,215,195
+categorical_pir,pir_group,PIR >2,830,461,369
+categorical_pir,pir_group,PIR ≤1,294,171,123
+insured_no_lapse,uninsured,0.0,1179,672,507
+insured_no_lapse,uninsured,1.0,242,109,133
+insured_no_lapse,sex,Female,657,379,278
+insured_no_lapse,sex,Male,764,402,362
+insured_no_lapse,race,Asian,225,111,114
+insured_no_lapse,race,Black,397,249,148
+insured_no_lapse,race,Mexican American,185,79,106
+insured_no_lapse,race,Other Hispanic,110,62,48
+insured_no_lapse,race,Other/multiracial,76,39,37
+insured_no_lapse,race,White,428,241,187
+insured_no_lapse,education,Below high school,239,129,110
+insured_no_lapse,education,College graduate,323,171,152
+insured_no_lapse,education,High school/GED,354,186,168
+insured_no_lapse,education,Some college/AA,505,295,210
+usual_care,no_usual_care,0.0,1261,756,505
+usual_care,no_usual_care,1.0,275,92,183
+usual_care,sex,Female,710,414,296
+usual_care,sex,Male,826,434,392
+usual_care,race,Asian,236,118,118
+usual_care,race,Black,440,274,166
+usual_care,race,Mexican American,196,81,115
+usual_care,race,Other Hispanic,122,72,50
+usual_care,race,Other/multiracial,85,45,40
+usual_care,race,White,457,258,199
+usual_care,education,Below high school,265,146,119
+usual_care,education,College graduate,347,184,163
+usual_care,education,High school/GED,379,201,178
+usual_care,education,Some college/AA,545,317,228
+usual_care_insurance,no_usual_care,0.0,1261,756,505
+usual_care_insurance,no_usual_care,1.0,273,91,182
+usual_care_insurance,sex,Female,709,413,296
+usual_care_insurance,sex,Male,825,434,391
+usual_care_insurance,race,Asian,236,118,118
+usual_care_insurance,race,Black,438,273,165
+usual_care_insurance,race,Mexican American,196,81,115
+usual_care_insurance,race,Other Hispanic,122,72,50
+usual_care_insurance,race,Other/multiracial,85,45,40
+usual_care_insurance,race,White,457,258,199
+usual_care_insurance,education,Below high school,264,146,118
+usual_care_insurance,education,College graduate,347,184,163
+usual_care_insurance,education,High school/GED,379,201,178
+usual_care_insurance,education,Some college/AA,544,316,228
+usual_care_insurance,uninsured,0.0,1292,738,554
+usual_care_insurance,uninsured,1.0,242,109,133
